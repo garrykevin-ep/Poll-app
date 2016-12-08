@@ -1,0 +1,15 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+{% if listx %}
+<ul>
+    {%for x in listx%}
+        <li>
+            <a href="{% url 'polls:detail' x.id %}">{{x.question_text}}</a>
+        </li>
+{% endfor %}
+</ul>
+{% else %}
+<p>
+    no polls
+</p>
+{% endif %}
