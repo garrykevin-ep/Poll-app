@@ -1,2 +1,2 @@
 # Poll-app
-A simple web app using django framework
+A simple polling web app using django framework
