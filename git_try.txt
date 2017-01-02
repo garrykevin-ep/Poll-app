@@ -1,0 +1,7 @@
+hi this is to try remote function of git 
+
+cloned
+
+created in local repo
+
+going to pull
